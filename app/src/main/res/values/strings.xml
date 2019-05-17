@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SweetPastry1</string>
+    <string-array name="cakes" id = "cakes">
+        <item>Медовый торт</item>
+        <item>Красный бархат</item>
+        <item>Бисквитный торт</item>
+        <item>Птичье молочко</item>
+    </string-array>
+    <string-array name="donats" id = "donuts">
+        <item>Донаты</item>
+        <item>Творожные донаты</item>
+    </string-array>
+    <string-array name="cupcakes" id = "cupcakes">
+        <item>Капкейки</item>
+    </string-array>
+    <string-array name="pastrys" id = "pastrys">
+        <item>Тирамису</item>
+        <item>Шоколадные</item>
+    </string-array>
+    <string-array name="Pies" id = "pies">
+        <item>Пироги</item>
+    </string-array>
+    <string-array name="bakes" id = "bakes">
+        <item>Торты</item>
+        <item>Пончики</item>
+        <item>Кексы</item>
+        <item>Пирожные</item>
+        <item>Пироги</item>
+    </string-array>
+</resources>
