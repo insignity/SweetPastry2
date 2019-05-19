@@ -21,7 +21,6 @@ public class Recipes extends AppCompatActivity {
         Button button1 = findViewById(R.id.button1);
         Button button2 = findViewById(R.id.button2);
         Button button3 = findViewById(R.id.button3);
-        Button button4 = findViewById(R.id.button4);
 
         View.OnClickListener onClickListener = (new View.OnClickListener() {
             @Override
@@ -43,10 +42,6 @@ public class Recipes extends AppCompatActivity {
                         Intent intent3 = new Intent(Recipes.this, Cupcakes.class);
                         startActivity(intent3);
                         break;
-                    case R.id.button4:
-                        Intent intent4 = new Intent(Recipes.this, Pies.class);
-                        startActivity(intent4);
-                        break;
                 }
             }
         });
@@ -54,7 +49,6 @@ public class Recipes extends AppCompatActivity {
         button1.setOnClickListener(onClickListener);
         button2.setOnClickListener(onClickListener);
         button3.setOnClickListener(onClickListener);
-        button4.setOnClickListener(onClickListener);
 
     }
 }

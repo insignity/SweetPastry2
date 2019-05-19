@@ -35,13 +35,7 @@ public class MainActivity extends AppCompatActivity {
         imageView.setImageMatrix(splashMatrix);
 
         RelativeLayout relativeLayout = findViewById(R.id.relativeLayout);
-        View.OnClickListener onClickListener = new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Menu.class);
-                startActivity(intent);
-            }
-        };
+
         final Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
@@ -50,6 +44,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         }, 3000);
-        relativeLayout.setOnClickListener(onClickListener);
     }
 }

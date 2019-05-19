@@ -16,6 +16,6 @@ public class Cupcakes extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
         PDFView pdfView = (PDFView) findViewById(R.id.pdfView);
-        pdfView.fromAsset("Cupcakes.pdf").load();
+        pdfView.fromAsset("cupcakes.pdf").load();
     }
 }

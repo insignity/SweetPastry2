@@ -56,8 +56,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:layout_marginLeft="149dp"
-        android:layout_marginBottom="332dp"
+        android:layout_marginStart="242dp"
+        android:layout_marginLeft="242dp"
+        android:layout_marginBottom="249dp"
         android:accessibilityHeading="false"
         android:fontFamily="@font/monotype_corsiva"
         android:text="Пирожные"
@@ -75,15 +76,4 @@
         android:text="Кексы"
         android:textSize="18sp" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="130dp"
-        android:layout_height="55dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginRight="40dp"
-        android:layout_marginBottom="250dp"
-        android:fontFamily="@font/monotype_corsiva"
-        android:text="Пироги"
-        android:textSize="18sp" />
 </RelativeLayout>

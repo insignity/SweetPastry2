@@ -17,6 +17,6 @@ public class Cakes extends AppCompatActivity {
         getSupportActionBar().hide();
 
         PDFView pdfView = (PDFView) findViewById(R.id.pdfView);
-        pdfView.fromAsset("Cakes.pdf").load();
+        pdfView.fromAsset("cakes.pdf").load();
     }
 }

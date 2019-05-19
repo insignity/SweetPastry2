@@ -16,6 +16,6 @@ public class Pastries extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
         PDFView pdfView = (PDFView) findViewById(R.id.pdfView);
-        pdfView.fromAsset("Pastries.pdf").load();
+        pdfView.fromAsset("pastries.pdf").load();
     }
 }
