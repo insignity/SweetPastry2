@@ -15,7 +15,7 @@ public class Donuts extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
-        PDFView pdfView = (PDFView) findViewById(R.id.pdfView);
+        PDFView pdfView = findViewById(R.id.pdfView);
         pdfView.fromAsset("donuts.pdf").load();
     }
 }

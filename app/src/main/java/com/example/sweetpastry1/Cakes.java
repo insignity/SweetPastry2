@@ -16,7 +16,7 @@ public class Cakes extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
 
-        PDFView pdfView = (PDFView) findViewById(R.id.pdfView);
+        PDFView pdfView = findViewById(R.id.pdfView);
         pdfView.fromAsset("cakes.pdf").load();
     }
 }
